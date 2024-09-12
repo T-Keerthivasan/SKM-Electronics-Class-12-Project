@@ -1,0 +1,50 @@
+create table Adapter
+(Sno integer PRIMARY KEY NOT NULL,
+Brand varchar(100),
+Model varchar(100),
+Outputpower varchar(7),
+PortModel varchar(100),
+Price integer);
+
+insert into table Adapter
+(1,'Lenovo','U1000EA',19W','USB Slim Tip',1341),
+(2,'Dell','AC Adapter','90W','Round',2499),
+(3,'Dell','GaN Slim','130W','USB-C',11498),
+(4,'Lenovo','AC Adapter','65W','USB Slim Port',1021),
+(5,'Lenovo','AC round d tip adapter','45W','Round tip',1041),
+(6,'HP','LC Power Adapter','65W','USB-C',2207),
+(7,'Acer','AC Power Adapter','65W','USB-C',2299),
+(8,'Acer','Small pin power adapter','65W','Small pin',1378);
+
+create table Monitor
+(Sno integer PRIMARY KEY NOT NULL,
+Brand varchar(100),
+Model varchar(100),
+Price integer);
+
+insert into Monitor values
+(1,'Asus','ProArt Display PA278CFRV 100Hz QHD IPS',31878),
+(2,'HP','Z Display Z22i 21.5-inch IPS LED Backlit Monitor',14093),
+(3,'Acer','KA222Q E0 54.6 cm (21.5") Full HD IPS Panel',5599),
+(4,'Dell','27 Monitor - S2721HN',12499),
+(5,'Zebronics',' MT52-ZEB A19HD 46.9 cm (18.5 inch), 1366 x 768 Resolution, Black Monitor',5599),
+(6,'Zebronics','MT61-ZEB A22FHD 54.6 cm (21.5 inch), 1920 x 1080 Resolution, Black Monitor',6799),
+(7,'Samsung','LS24C366EAWXXL 58.8CM(24 INCH) Full HD VA Panel LED Curved Monitor',7499),
+(8,'Croma','CRSM27FMDA029601 69 cm (27 inch) Full HD Flat Panel Thin Bezel Monitor with Built-in Speaker',9999);
+
+create table Mouse
+(Sno integer PRIMARY KEY NOT NULL,
+Brand varchar(100),
+Model varchar(100),
+Price integer);
+
+insert into Mouse values
+(1,'Logitech','Logitech G304 Lightspeed Wireless Gaming Mouse',2995),
+(2,'Zebronics','ZEBRONICS-Transformer-M with a High-Performance Gold-Plated USB Mouse',400),
+(3,'HP','HP M260 RGB Backlighting USB Wired Gaming Mouse',472),
+(4,'Dell','Dell WM118 Wireless Mouse',580),
+(5,'Asus','ASUS ROG Strix Impact III Gaming Mouse',4200),
+(6,'Offbeat','Offbeat Bluetooth 5.1 + 2.4 Ghz wireless Gaming Mouse',1190),
+(7,'Razer','Razer DeathAdder Essential Wired Gaming Mouse',1250),
+(8,'Kreo','Kreo Hawk Gaming Mouse with Programmable Buttons & RGB Lighting',1350);
+
